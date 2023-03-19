@@ -3,6 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 .title {
@@ -21,6 +23,7 @@ span {
 .first {
     background-color: #1F2937;
     display: flex;
+    flex: 1;
 }
 
 .texto {
@@ -30,10 +33,6 @@ span {
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.texto-image {
-    height:
 }
 
 .first-button {
@@ -48,7 +47,7 @@ span {
 .middle {
     display: flex;
     text-align: center;
-    flex-wrap: wrap;
+    justify-content: center;
     flex: 1;
 }
 
@@ -64,7 +63,7 @@ img {
     border-radius: 4px;
     padding: 16px;
     margin: 16px;
-    width: 400px;
+    width: 200px;
 }
 
 ul {
@@ -74,6 +73,22 @@ ul {
     padding: 0;
     gap: 16px;
 
+}
+
+.quote {
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.para {
+    margin: 10px 300px;
+    text-align: start;
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 675px;
+    font-weight: bold;
 }
 
 .sign-up {
