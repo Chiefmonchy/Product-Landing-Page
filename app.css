@@ -47,6 +47,7 @@ span {
     color: white;
     border-radius: 10%;
     padding: 7px;
+    border: 1px solid white;
 }
 
 .middle {
@@ -107,27 +108,30 @@ p {
     background-color: #3882f6;
     display: flex;
     flex: 1;
-    padding: 30px;
-    border-radius: 5%;
+    padding: 40px;
+
+    color: #f9faf8;
 }
 
 .last-button {
     background-color: #3882f6;
     border-radius: 15%;
+
     margin-left: 50px;
-    padding: 5px;
+    padding: 10px 20px;
     border: 1px solid white;
     color: white;
+    font-weight: bold;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-    padding: 20px;
+    background-color: #1F2937;
+    padding: 30px;
     text-align: center;
-
+    color: #f9faf8;
 }
 
 a {
