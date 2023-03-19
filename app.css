@@ -5,6 +5,7 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+
 }
 
 .title {
@@ -13,7 +14,10 @@ body {
     padding: 10px;
     background-color: #1F2937;
     color: white;
+    border-bottom: 1px solid white;
 }
+
+
 
 span {
     font-weight: bold;
@@ -28,16 +32,17 @@ span {
 
 .texto {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 48px;
     color: #f9faf8;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left border: 2px dashed red;
+    padding-left: 150px;
 }
 
 .first-button {
     width: 100px;
-    margin-left: 450px;
+    margin-left: 370px;
     background-color: #3882f6;
     color: white;
     border-radius: 10%;
@@ -81,20 +86,38 @@ ul {
 }
 
 .para {
-    margin: 10px 300px;
+    margin: 50px 250px;
     text-align: start;
+    font-size: 36px;
 }
 
 p {
     margin-top: 5px;
     margin-left: 675px;
     font-weight: bold;
+    font-size: 34px;
 }
 
 .sign-up {
+    flex: 1;
+    padding: 80px;
+}
+
+.last-box {
+    background-color: #3882f6;
     display: flex;
     flex: 1;
+    padding: 30px;
+    border-radius: 5%;
+}
 
+.last-button {
+    background-color: #3882f6;
+    border-radius: 15%;
+    margin-left: 50px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
 }
 
 .footer {
